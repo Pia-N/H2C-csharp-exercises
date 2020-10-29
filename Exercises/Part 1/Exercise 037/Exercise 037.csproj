@@ -7,7 +7,7 @@
     <ProjectGuid>{D0409E13-E867-4B08-AC76-1118953D3627}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Exercise_037</RootNamespace>
-    <AssemblyName>Exercise 037</AssemblyName>
+    <AssemblyName>Program</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
