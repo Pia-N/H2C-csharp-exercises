@@ -12,7 +12,7 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/Program.exe",
             "args": [],
-            "console": "internalConsole"
+            "console": "integratedTerminal"
         }
     ]
 }
