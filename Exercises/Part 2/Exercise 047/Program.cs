@@ -8,7 +8,21 @@ namespace exercise_47
     {
 
       // Write your code here:
+      Console.WriteLine("Where to?");
+      int endNum = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Where from?");
+      int startNum = Convert.ToInt32(Console.ReadLine());
+
+      while (startNum <= endNum)
+      {
+        Console.WriteLine(startNum);
+        startNum++;  
+      }
       
     }
+    
+      
+            
+    
   }
 }
