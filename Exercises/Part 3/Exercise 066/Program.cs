@@ -11,13 +11,19 @@ namespace exercise_66
       while (true)
       {
         string input = Console.ReadLine();
-        if (input == "")
+         if (input == "")
         {
           break;
         }
-        list.Add(input);
-      }
 
+        list.Add(input); 
+      }
+      
+      Console.WriteLine(list[list.Count-1]);
+      
+      
+
+        
     }
   }
 }

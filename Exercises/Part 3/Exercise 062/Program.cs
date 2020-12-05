@@ -8,7 +8,8 @@ namespace exercise_62
   {
     public static void Main(string[] args)
     {
-      List<string> list = new List<string>();
+      List<string> names = new List<string>();
+      Console.WriteLine("Give a list of names. Empty space ends.");
       while (true)
       {
         string input = Console.ReadLine();
@@ -17,11 +18,11 @@ namespace exercise_62
           break;
         }
 
-        list.Add(input);
+        names.Add(input);
       }
 
       // BEGIN SOLUTION
-      Console.WriteLine(list[2]);
+      Console.WriteLine(names[2]);
       // END SOLUTION
     }
 

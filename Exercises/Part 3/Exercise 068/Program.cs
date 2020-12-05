@@ -16,8 +16,13 @@ namespace exercise_68
           break;
         }
         list.Add(input);
-      }
-
+        }
+        
+        foreach (int number in list)
+        {
+        Console.WriteLine(number);
+        }
+        
     }
   }
 }

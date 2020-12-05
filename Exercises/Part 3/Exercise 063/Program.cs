@@ -8,7 +8,9 @@ namespace exercise_63
   {
     public static void Main(string[] args)
     {
-      List<int> list = new List<int>();
+      List<int> numbers = new List<int>();
+      
+      
       while (true)
       {
         int input = Convert.ToInt32(Console.ReadLine());
@@ -17,9 +19,11 @@ namespace exercise_63
           break;
         }
 
-        list.Add(input);
+        numbers.Add(input);
+        
+        
       }
-      Console.WriteLine(list[0]);
+      Console.WriteLine(numbers[1]+numbers[2]);
     }
 
   }
