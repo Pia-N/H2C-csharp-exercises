@@ -17,7 +17,19 @@ namespace exercise_71
         }
         list.Add(input);
       }
+        Console.WriteLine("Search for?");
+        int answer = Convert.ToInt32(Console.ReadLine());
+          int index = list.IndexOf(answer);
+          if (index != -1)
+          {
+            Console.WriteLine(answer +" is at index "+index);
+          }
+            else
+            {
+              Console.WriteLine("Number not found on given list.");
+            }
 
+        
     }
   }
 }
