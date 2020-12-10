@@ -7,16 +7,58 @@ namespace exercise_82
   {
     public static void Main(string[] args)
     {
-      // You can test your method here
+      //You can test your method here
       int[] array = { 5, 1, 3, 4, 2 };
+      
       PrintArrayInStars(array);
+      
+
+      
+      
+      
 
     }
 
-    public static void PrintArrayInStars(int[] array)
+   public static void PrintArrayInStars(int[] array)
+    { 
+     
+      for (int i = 0; i < array.Length; i++)
+      {
+        PrintStars(array[i]);
+      }
+      
+    }
+    public static void PrintStars(int x) 
     {
+      for(int i = 0; i < x; i++)
+      {
+        Console.Write("*");
+      }
+        Console.WriteLine();
 
-    }
+
+
+
+
+    } 
+        
+        
+      
+
+      
+
+          
+      
+      
+          
+      
+
+      
+        
+         
+      
+
+    
   }
 }
 
