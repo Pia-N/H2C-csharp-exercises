@@ -30,9 +30,9 @@ namespace exercise_72
         Console.WriteLine("Smallest number: "+smallest);
         //int index = list.IndexOf(smallest);
          //if (index < 9999)
-        {
+        //{
            // Console.WriteLine("Found at index: "+index);  
-        }
+        //}
         for (int i = 0; i < list.Count; i++)
         {
             if(list[i] == smallest)
