@@ -7,10 +7,43 @@ namespace exercise_92
   {
     public static void Main(string[] args)
     {
+      Console.WriteLine("Give a name and a birth year separated by comma.\nEmpty line exits");
+      int highest = 0;
+      int longest = 0;
+      string longestName = "";
+      while (true)
+        {
+          string input = Console.ReadLine();
+          if (input != "")
+          {
+          string [] nameAndAge = input.Split(',');
+          int year = Convert.ToInt32(nameAndAge[1]);
+          int nameSize = nameAndAge[0].Length;
+          int age = 2020 -(year);
+          
 
+          if (age > highest) highest = age;
+        
+          if (nameSize > longest) 
+          {
+            longest = nameSize;
+            longestName = nameAndAge[0];
+
+          }
+          
+          }
+
+          else
+          {
+            Console.WriteLine("Longest name: "+longestName);
+            Console.WriteLine("Highest age: "+highest);
+            break;
+          }
+        }
     }
   }
 }
+
 
 
 

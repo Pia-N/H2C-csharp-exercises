@@ -14,7 +14,7 @@ namespace exercise_90
        
        if (input != "")
         {
-          string[]nameAndAge = input.Split(',');
+          string [] nameAndAge = input.Split(',');
           int age = Convert.ToInt32(nameAndAge[1]);
         
         if (oldest < age)
